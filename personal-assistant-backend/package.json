@@ -1,0 +1,44 @@
+{
+  "name": "personal-assistant-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.87.0",
+    "@firebase/app": "^0.14.11",
+    "@firebase/auth": "^1.13.0",
+    "@firebase/firestore": "^4.14.0",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.15.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "firebase-admin": "^13.8.0",
+    "googleapis": "^171.4.0",
+    "helmet": "^8.1.0",
+    "openai": "^6.34.0",
+    "react-native-sse": "^1.2.1",
+    "ws": "^8.20.0",
+    "zod": "^4.3.6",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "@types/ws": "^8.18.1",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
